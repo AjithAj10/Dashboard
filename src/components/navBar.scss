@@ -1,0 +1,55 @@
+:root {
+    --primary: #7479e8;
+    --secondary: #dae1ef;
+    --light: #fff;
+    --textPrimary: #4e4f55;
+    --textSecondary: #dae1ef;
+}
+
+a {
+    all: unset;
+}
+.navbar{
+    .logo{
+        height: 4em;
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
+        font-size: 16px;
+        margin-bottom: 1em;
+    }
+    .menuItem{
+        display: flex;
+        text-transform: uppercase;
+        height: 3.4em;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .menuItem:hover {
+        background-color: #565baf;
+    }
+    .menuItem-active{
+        background-color: var(--secondary);
+        color: var(--primary);
+        display: flex;
+        text-transform: uppercase;
+        height: 3.4em;
+        align-items: center;
+
+    }
+    .menuLabel{
+        padding-top: 4px;
+    }
+    .menuIcon{
+        margin: 0 1.2em;       
+    }
+    width: 12vw;
+    height: 100vh;
+    position: sticky !important;
+    //background-color: #7479e8;
+    background: url(./bg2.jpg) no-repeat;
+    font-size: 12px;
+    color: var(--textSecondary);
+    font-weight: 700;
+}

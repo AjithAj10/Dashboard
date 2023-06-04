@@ -1,0 +1,26 @@
+.Graph {
+    position: relative;
+    width: 60%;
+    height: auto;
+    z-index: 9;
+    /* left: 13rem; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2em 0;
+
+}
+
+.apexcharts-canvas .apexcharts-legend .apexcharts-legend-series,
+.apexcharts-canvas .apexcharts-toolbar {
+    display: none;
+}
+
+.graph-header {
+    color: white !important;
+    stroke-width: 12px !important;
+    filter: drop-shadow(2px 4px 6px white);
+}

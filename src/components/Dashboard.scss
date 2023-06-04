@@ -1,0 +1,144 @@
+:root {
+    --primary: #7479e8;
+    --secondary: #dae1ef;
+    --light: #fff;
+    --textPrimary: #4e4f55;
+    --textSecondary: #dae1ef;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.graph-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search{
+   // margin: 1em 2em;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 100px;
+    align-items: center;
+    padding-left: 0.5em;
+    input {
+        background: none;
+        border: none;
+        padding: none !important;
+        margin: none !important;
+        //height: 2em;
+        margin-left: 0em;
+    }
+    input:focus {
+        outline: none !important;
+        border: none !important;
+      }
+}
+.personal{ 
+    display: flex;
+    justify-content: space-around;
+    //margin: 1em 2em;
+}
+
+button {
+    border: none;
+    border-radius: 100px !important;
+    margin: 0 1em !important;
+}
+
+.bell {
+  margin: 0.5em;
+}
+
+.web {
+   background: linear-gradient(#7479e8, #7c80dd);
+}
+
+.eng {
+    background-color: white !important;
+    color: var(--textPrimary) !important;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.place {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    .card {
+        background-color: white;
+        padding: 1.5em;
+        border-radius: 10px;
+        text-transform: uppercase;
+        .title {
+            font-weight: 500;
+            font-size: 11px;
+            
+        }
+        .value {
+            font-size: 22px;
+            margin-top: 0.4em;
+            font-weight: 700;
+        }
+    }
+    .graph{
+        max-width: 20%;
+        max-height: 20%;
+    }
+}
+.allCards > .CompactCard:nth-child(even) { 
+   background: url(./bg2.jpg) no-repeat !important;
+   //background-position: center;
+   background-size:cover !important;
+   background-position: center !important;
+   color: var(--textSecondary);
+}
+
+.overview {
+    margin-top: 2em;
+    .title{
+        display: flex;
+        margin-bottom: 1em;
+    }
+    .header{
+        font-weight: 700;
+        color: #4e4f55;
+        margin-right: 1em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    .overview-btn{
+        font-size: 14px;
+        background-color: white;
+        color: var(--textPrimary);
+        text-transform: capitalize;
+    }
+}
+
+.GraphSection{
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(60%,40%);
+    grid-gap: 2em;
+    .a {
+        background-color: #4e4f55;
+    }
+    .b {
+        background-color: #dae1ef;
+    }
+}

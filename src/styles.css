@@ -1,0 +1,37 @@
+:root {
+    --primary: #7479e8;
+    --secondary: #dae1ef;
+    --light: #fff;
+    --textPrimary: #4e4f55;
+    --textSecondary: #dae1ef;
+}
+
+.mainPage{
+    display: grid;
+    grid-template-columns: 12vw 88vw;
+}
+.chart{
+    width: auto;   
+    padding: 1.5em 2.5em;
+    overflow-x: hidden !important;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    text-transform: capitalize !important;
+}
+
+body{
+    background-color: var(--secondary);
+    margin: 0;
+}
+
+.center{
+   display: flex;
+   padding: 0 2em;
+   flex-direction: column;
+    justify-content: center;
+    
+}
