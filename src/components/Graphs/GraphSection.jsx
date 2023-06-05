@@ -12,9 +12,7 @@ const GraphSection = () => {
       chart: {
         id: "basic-bar",
       },
-      grid: {
-        show: false,
-      },
+     
       markers: {
         colors: ["#F44336", "#E91E63", "#9C27B0"],
       },
