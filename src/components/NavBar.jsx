@@ -7,7 +7,7 @@ import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutline
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 import "./navBar.scss";
 import { useState } from "react";
-import { Link, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const navData = [
   { label: "dashboard", icon: GridViewIcon },
